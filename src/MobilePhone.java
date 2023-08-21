@@ -20,7 +20,7 @@ public class MobilePhone {
     }
 
     public void makeCall(String number) {
-        System.out.println("We are calling " + number + " from our " + brand + " " + model + " phone!!");
+        System.out.println("We are calling " + number + " from our " + brand + " " + model + " phone!");
     }
 
     public void installApp(String appName) {
@@ -33,5 +33,4 @@ public class MobilePhone {
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Storage Capacity: " + storageCapacity + "GB");
     }
-
 }
